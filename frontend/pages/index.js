@@ -3,8 +3,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main style={{ fontFamily: 'sans-serif', padding: '2rem', lineHeight: 1.6 }}>
-      
+      import '../styles/home.css';
       {/* 1. Hero Section */}
+<section className="hero">
       <section style={{ textAlign: 'center', padding: '3rem 1rem', backgroundColor: '#9FB3DF' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#fff' }}>
           Kembara Impian Anda Bermula di Sini
@@ -26,13 +27,13 @@ export default function Home() {
       </section>
 
       {/* 2. Kenapa Pilih AQ */}
-      <section>
+      <section className="section">
         <h2>Kenapa Pilih AQ Travel?</h2>
         <ul>
-          <li>✅ Berdaftar & dipercayai</li>
-          <li>✅ Pengurusan profesional</li>
-          <li>✅ Jadual fleksibel & mesra pelanggan</li>
-          <li>✅ Harga telus, tiada caj tersembunyi</li>
+          <li> Berdaftar & dipercayai</li>
+          <li> Pengurusan profesional</li>
+          <li> Jadual fleksibel & mesra pelanggan</li>
+          <li> Harga telus, tiada caj tersembunyi</li>
         </ul>
       </section>
 
@@ -127,3 +128,5 @@ export default function Home() {
     </main>
   );
 }
+
+
