@@ -6,7 +6,7 @@ export default function Home() {
     <main>
 
       {/* 1. Hero Section */}
-      <section className="hero">
+      <section className="hero container">
         <h1>Kembara Impian Anda Bermula di Sini</h1>
         <p>
           Pakej pelancongan yang tersusun, selamat & penuh pengalaman bermakna.
@@ -15,9 +15,9 @@ export default function Home() {
       </section>
 
       {/* 2. Kenapa Pilih AQ */}
-      <section className="section">
+      <section className="section container">
         <h2>Kenapa Pilih AQ Travel?</h2>
-        <ul>
+        <ul style={{ textAlign: 'left', display: 'inline-block' }}>
           <li>✅ Berdaftar & dipercayai</li>
           <li>✅ Pengurusan profesional</li>
           <li>✅ Jadual fleksibel & mesra pelanggan</li>
@@ -26,9 +26,9 @@ export default function Home() {
       </section>
 
       {/* 3. Senarai Pakej */}
-      <section className="section">
+      <section className="section container">
         <h2>Pakej Pilihan</h2>
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
           <div>
             <Image src="/images/galeri-1.jpg" width={300} height={200} alt="Pakej A" />
             <h4>Phuket 3H2M</h4>
@@ -43,9 +43,9 @@ export default function Home() {
       </section>
 
       {/* 4. Cara Tempahan */}
-      <section className="section">
+      <section className="section container">
         <h2>Cara Tempahan</h2>
-        <ol>
+        <ol style={{ textAlign: 'left', display: 'inline-block' }}>
           <li>Pilih pakej</li>
           <li>Isi maklumat</li>
           <li>Buat bayaran</li>
@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       {/* 5. Testimoni */}
-      <section className="section testimoni">
+      <section className="section testimoni container">
         <h2>Apa Kata Pelanggan?</h2>
         <blockquote>
           “Terbaik! Pengurusan AQ Travel sangat profesional dan mesra. Perjalanan saya ke Bali sangat lancar.”
@@ -63,16 +63,16 @@ export default function Home() {
       </section>
 
       {/* 6. Galeri */}
-      <section className="section galeri">
+      <section className="section galeri container">
         <h2>Galeri Perjalanan</h2>
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
           <Image src="/images/hero.jpg" width={250} height={160} alt="Destinasi 1" />
           <Image src="/images/galeri-1.jpg" width={250} height={160} alt="Destinasi 2" />
         </div>
       </section>
 
       {/* 7. Tentang Kami */}
-      <section className="section">
+      <section className="section container">
         <h2>Tentang AQ Travel</h2>
         <p>
           AQ Travel ialah agensi pelancongan berlesen, berpengalaman lebih 5 tahun dalam menganjurkan pakej domestik & antarabangsa.
@@ -80,7 +80,7 @@ export default function Home() {
       </section>
 
       {/* 8. CTA Sekunder */}
-      <section className="section" style={{ textAlign: 'center' }}>
+      <section className="section container">
         <h3>Berminat untuk tempah sekarang?</h3>
         <a href="https://wa.me/60189067569" className="cta-btn">
           WhatsApp Sekarang
@@ -88,14 +88,14 @@ export default function Home() {
       </section>
 
       {/* 9. FAQ */}
-      <section className="section">
+      <section className="section container">
         <h2>Soalan Lazim</h2>
         <p><strong>Q:</strong> Boleh bayar ansuran?</p>
         <p><strong>A:</strong> Ya, kami ada pilihan deposit awal.</p>
       </section>
 
       {/* 10. Footer */}
-      <footer className="footer">
+      <footer className="footer container">
         <p>© 2025 AQ Travel & Tours. Semua Hak Terpelihara.</p>
         <p>Email: aqttsb23@gmail.com | Phone: 018-9067569</p>
       </footer>
