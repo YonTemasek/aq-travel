@@ -1,1 +1,50 @@
+/* Reset CSS Basic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Global Link Style */
+a {
+  color: #9EC6F3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+/* Section spacing */
+section {
+  margin: 2.5rem 0;
+}
+
+/* Utility class (optional) */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Brand colors */
+:root {
+  --aq-blue1: #9FB3DF;
+  --aq-blue2: #9EC6F3;
+  --aq-blue3: #BDDDE4;
+  --aq-cream: #FFF1D5;
+}
 
