@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import '../styles/home.css'; //
+import '../styles/home.css'; // ✅ Mesti di luar function
 
 export default function Home() {
   return (
