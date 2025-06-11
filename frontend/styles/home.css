@@ -1,1 +1,64 @@
+.hero {
+  background-color: var(--aq-blue1);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--aq-blue2);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.section {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.section ul, .section ol {
+  padding-left: 1.5rem;
+}
+
+.testimoni {
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.galeri img {
+  margin-right: 1rem;
+  border-radius: 6px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.875rem;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
 
